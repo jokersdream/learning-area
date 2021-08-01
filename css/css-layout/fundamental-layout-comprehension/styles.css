@@ -49,3 +49,40 @@ body {
   .feature {
       width: 200px;
   }
+/* || start my css */
+  nav {
+    position:sticky;
+    top: 0;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  article {
+    flex: 3;
+    margin-right: 20px;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1px;
+  }
